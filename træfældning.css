@@ -1,0 +1,36 @@
+.grid_1_1 img {
+  opacity: 50%;
+}
+
+.grid_1_2 {
+  position: absolute;
+  top: 19%;
+  left: 39%;
+}
+
+.symboler {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 500px;
+  padding-top: 50px;
+  position: absolute;
+  top: 71%;
+  left: 11%;
+}
+
+.tekst_1 {
+  position: absolute;
+  top: 90%;
+  left: 12%;
+}
+
+.tekst_2 {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+.tekst_3 {
+  position: absolute;
+  top: 90%;
+  left: 82%;
+}

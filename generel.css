@@ -1,0 +1,53 @@
+img {
+  width: 100%;
+  display: block;
+}
+/******main******/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/****HEADER****/
+header {
+  border-radius: 1rem;
+  text-align: right;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 3px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  font-family: "Krub", sans-serif;
+}
+header a {
+  margin-left: 6rem;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+a:hover {
+  color: rgb(2, 2, 2);
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+/****TEKSTER***/
+h1 {
+  font-family: "Krub", sans-serif;
+  font-size: 5rem;
+  color: rgb(2, 2, 2);
+}
+
+h2 {
+  font-family: "Krub", sans-serif;
+  font-size: 2rem;
+  color: rgb(37, 65, 33);
+}
