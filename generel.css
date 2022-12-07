@@ -72,6 +72,12 @@ h5 {
   color: rgb(37, 65, 33);
 }
 
+h6 {
+  font-family: "Krub", sans-serif;
+  font-size: 2rem;
+  color: rgb(37, 65, 33);
+}
+
 p {
   font-family: "Krub", sans-serif;
   font-size: 1.4rem;
@@ -82,4 +88,5 @@ ul {
   font-family: "Krub", sans-serif;
   font-size: 1.6rem;
   color: rgb(37, 65, 33);
+  margin-left: 60px;
 }

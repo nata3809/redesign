@@ -36,13 +36,35 @@
   width: 220%;
 }
 
+/****KNAP****/
+.cta {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-color: #4d604b;
+  border-style: solid;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  margin-top: 50px;
+}
+.cta:hover {
+  color: rgb(3, 3, 3);
+  background-color: rgb(255, 255, 255);
+}
+a.cta {
+  font-family: "Krub", sans-serif;
+  font-size: 1.6rem;
+}
+
+.grid_knap {
+  margin-top: 187px;
+}
 /***Træfældning**/
 
 .grid_2_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  margin-top: 80px;
+  margin-top: 16px;
   margin-left: -210px;
   margin-right: -210px;
 }
@@ -56,7 +78,7 @@
 }
 
 #streg1 {
-  margin-top: 126px;
+  margin-top: -11px;
 }
 #streg2 {
   margin-top: 126px;
@@ -87,7 +109,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  margin-top: 80px;
+  margin-top: 6px;
   margin-left: -210px;
   margin-right: -210px;
 }
@@ -102,7 +124,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  margin-top: 80px;
+  margin-top: 8px;
   margin-left: -210px;
   margin-right: -210px;
 }
