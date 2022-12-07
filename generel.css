@@ -20,23 +20,25 @@ header {
 ul#horizontal-list li {
   display: inline;
   font-family: "Krub", sans-serif;
+  font-size: 2rem;
 }
 header a {
   margin-left: 6rem;
   text-decoration: none;
+  color: black;
 }
 
 a:link {
   color: black;
 }
 a:visited {
-  color: rgb(0, 0, 0);
-  font-size: 1.1rem;
+  color: rgb(30, 66, 36);
+  font-size: 2.1rem;
 }
 a:hover {
-  color: rgb(2, 2, 2);
+  color: rgb(30, 66, 36);
   font-weight: bolder;
-  font-size: 1.1rem;
+  font-size: 2.1rem;
 }
 
 /****TEKSTER***/
@@ -48,6 +50,36 @@ h1 {
 
 h2 {
   font-family: "Krub", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  color: rgb(37, 65, 33);
+}
+
+h3 {
+  font-family: "Krub", sans-serif;
+  font-size: 1.7rem;
+  color: rgb(37, 65, 33);
+}
+
+h4 {
+  font-family: "Krub", sans-serif;
+  font-size: 1.6rem;
+  color: rgb(37, 65, 33);
+}
+
+h5 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.1rem;
+  color: rgb(37, 65, 33);
+}
+
+p {
+  font-family: "Krub", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(37, 65, 33);
+}
+
+ul {
+  font-family: "Krub", sans-serif;
+  font-size: 1.6rem;
   color: rgb(37, 65, 33);
 }
