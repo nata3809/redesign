@@ -1,45 +1,10 @@
-/********* Kontakt os **********/
-
-form {
-  display: grid;
-  padding: 2rem;
-  border-radius: 8px;
-  gap: 30px;
-}
-.form-felt {
-  display: grid;
-  gap: 3px;
-}
-label,
-input,
-textarea,
-select,
-button {
-  display: block;
-}
-
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  margin-top: 16px;
-  background-image: url("img/kontaktosbillede2.png");
-}
-.grid_1-2 {
-  padding-left: 90px;
-}
-.grid_1-3 {
-  margin-top: 94px;
-}
-
-/********* Footer **********/
-/**Footer**/
 footer {
   background-color: #4d604b;
   width: 100%;
   min-height: 250px;
   padding: 10px 10px 25px 10px;
-  margin-top: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer_grid {
@@ -49,7 +14,7 @@ footer {
   text-align: center;
 }
 
-.h3footer {
+.h2footer {
   color: white;
   font-family: "Krub", sans-serif;
 }

@@ -1,53 +1,191 @@
+/*****Titel og overskrift*****/
+
 .grid_1_1 img {
   opacity: 50%;
 }
 
 .grid_1_2 {
   position: absolute;
-  top: 19%;
-  left: 39%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+/****Symboler***/
 
 .symboler {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  gap: 500px;
-  padding-top: 50px;
-  position: absolute;
-  top: 71%;
-  left: 11%;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr;
+  gap: 450px;
+  margin-top: 90px;
 }
 
-.tekst_1 {
-  position: absolute;
-  top: 90%;
-  left: 12%;
+.tekstsymbol {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr;
+  gap: 324px;
 }
 
-.tekst_2 {
-  position: absolute;
-  top: 90%;
-  left: 45%;
+#træ {
+  width: 149%;
 }
-.tekst_3 {
-  position: absolute;
-  top: 90%;
-  left: 82%;
+#sav {
+  width: 184%;
 }
+#stub {
+  width: 220%;
+}
+
+/****KNAP****/
+.cta {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-color: #4d604b;
+  border-style: solid;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  margin-top: 50px;
+}
+.cta:hover {
+  color: rgb(3, 3, 3);
+  background-color: rgb(255, 255, 255);
+}
+a.cta {
+  font-family: "Krub", sans-serif;
+  font-size: 1.6rem;
+}
+
+.grid_knap {
+  margin-top: 187px;
+}
+/***Træfældning**/
 
 .grid_2_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 500px;
-  margin-left: 50px;
-  margin-right: 50px;
+  gap: 50px;
+  margin-top: 16px;
 }
 
-.grid_2_3 {
-  margin-left: 50px;
-  margin-right: 50px;
+.grid_2_4 {
+  margin-top: 137px;
 }
 
-.grid_2_4 img {
-  width: 60%;
+#streg {
+  margin-top: 60px;
+}
+
+#streg1 {
+  margin-top: -11px;
+}
+#streg2 {
+  margin-top: 126px;
+}
+
+/***Risikotræer***/
+
+.grid_3_5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#træ1 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+#træ2 {
+  grid-row: 2;
+  grid-column: 1;
+}
+#træ3 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.grid_3_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 6px;
+}
+
+.grid_3_4 {
+  margin-top: 97px;
+}
+
+/***Topkapning**/
+
+.grid_4_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 8px;
+}
+
+.grid_4_7 {
+  margin-top: 320px;
+}
+.grid_4_6 {
+  margin-top: 145px;
+}
+
+footer {
+  background-color: #4d604b;
+  width: 100%;
+  min-height: 250px;
+  padding: 10px 10px 25px 10px;
+  margin-top: 50px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.h3footer {
+  color: white;
+  font-family: "Krub", sans-serif;
+}
+
+footer p {
+  font-family: "Krub", sans-serif;
+  font-size: 13px;
+  color: #ccc;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.footerlist {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+.footerlist li {
+  padding: 0px 0px 5px 0px;
+  font-family: "Krub", sans-serif;
+}
+.footerlist li a {
+  color: #ccc;
+}
+.footerlist li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.arbtider {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+  color: #ccc;
+  padding: 0px 0px 5px 0px;
+  font-family: "Krub", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
 }
