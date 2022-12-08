@@ -1,8 +1,10 @@
 /********* Kontakt os **********/
 
 form {
+  display: grid;
   padding: 2rem;
   border-radius: 8px;
+  gap: 30px;
 }
 .form-felt {
   display: grid;
@@ -31,13 +33,13 @@ button {
 }
 
 /********* Footer **********/
+/**Footer**/
 footer {
   background-color: #4d604b;
   width: 100%;
   min-height: 250px;
   padding: 10px 10px 25px 10px;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .footer_grid {
@@ -47,7 +49,7 @@ footer {
   text-align: center;
 }
 
-.h2footer {
+.h3footer {
   color: white;
   font-family: "Krub", sans-serif;
 }
