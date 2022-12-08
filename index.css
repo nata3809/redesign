@@ -1,3 +1,106 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+/******main******/
+main {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* margin-left: 99px;
+  margin-right: 100px; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/****HEADER****/
+header {
+  border-radius: 1rem;
+  text-align: right;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  border: 3px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  font-family: "Krub", sans-serif;
+  font-size: 1rem;
+}
+header a {
+  margin-left: 6rem;
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(30, 66, 36);
+  font-size: 1.1rem;
+}
+a:hover {
+  color: rgb(30, 66, 36);
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+/****TEKSTER***/
+h1 {
+  font-family: "Krub", sans-serif;
+  font-size: 4rem;
+  color: rgb(2, 2, 2);
+}
+
+h2 {
+  font-family: "Krub", sans-serif;
+  font-size: 3rem;
+  color: rgb(37, 65, 33);
+}
+
+h3 {
+  font-family: "Krub", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(37, 65, 33);
+}
+
+h4 {
+  font-family: "Krub", sans-serif;
+  font-size: 1.6rem;
+  color: rgb(37, 65, 33);
+}
+
+h5 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.1rem;
+  color: rgb(37, 65, 33);
+}
+
+h6 {
+  font-family: "Krub", sans-serif;
+  font-size: 2rem;
+  color: rgb(37, 65, 33);
+  margin-top: 0;
+}
+
+p {
+  font-family: "Krub", sans-serif;
+  font-size: 1rem;
+  color: rgb(37, 65, 33);
+}
+
+ul {
+  font-family: "Krub", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(37, 65, 33);
+  margin-left: 60px;
+}
+
 body {
   margin: 0;
   padding: 0;
