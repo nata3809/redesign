@@ -10,8 +10,10 @@ img {
 main {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  margin-left: 99px;
-  margin-right: 100px;
+  /* margin-left: 99px;
+  margin-right: 100px; */
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /****HEADER****/

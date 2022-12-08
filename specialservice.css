@@ -14,23 +14,26 @@
 /****Symboler***/
 
 .symboler {
-  display: grid;
-  grid-template-columns: 0.2fr 0.2fr;
-  gap: 450px;
-  margin-top: 90px;
+  display: block;
+  display: inline block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
 }
 
+.symboler img {
+  item-align: center;
+}
 .tekstsymbol {
   display: grid;
   grid-template-columns: 0.1fr 0.1fr;
   gap: 324px;
 }
-
 #sav {
-  width: 89%;
+  width: 38%;
 }
 #stub {
-  width: 104%;
+  width: 59%;
 }
 
 /***Træfældning**/
