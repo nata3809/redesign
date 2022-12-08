@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Krub", sans-serif;
+}
+
+.fix {
+  clear: both;
+  overflow: hidden;
+}
+
+header {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.vid-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.nav-area {
+  background: rgba(0, 0, 0, 0.7);
+  height: 60px;
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  margin: 0 50px;
+  height: 60px;
+  float: left;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.logo span {
+  color: #dee2a7;
+}
+
+.menu-area {
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu-area li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.menu-area li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+}
+
+.menu-area li.active a {
+  color: #dee2a7;
+}
+
+.menu-area li a:hover {
+  color: #dee2a7;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  left: 37%;
+}
+
+.banner-text h2 {
+  color: #fff;
+  font-size: 80px;
+  margin: 0;
+}
+
+.banner-text h2 span {
+  color: #dee2a7;
+}
+
+.banner-text p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 5%;
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 3px solid #609000;
+  padding: 10px 25px;
+  color: #609000;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  display: inline-block;
+  margin-top: 5%;
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 3px solid #8acb65;
+  padding: 10px 25px;
+  color: #8acb65;
+  border-radius: 25px;
+}
