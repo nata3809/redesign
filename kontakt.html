@@ -30,6 +30,36 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h2>Kontakt os</h2>
+            <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.
+            </p>
+
+            <form name="kontakt" netlify>
+                <div class="form-felt">
+                    <label>
+                        Fulde navn
+                        <input placeholder="fx Peter Jesen" id="navn" type="text" name="fnavn" required>
+                    </label>
+                </div>
+
+                <div class="form-felt">
+                    <label>
+                        E-mail
+                        <input placeholder="fx peter@gmail.com" id="email" type="email" name="email" required>
+                    </label>
+                </div>
+                <div class="form-felt">
+                    <label>
+                        Besked (valgfri)
+                        <textarea name="besked" rows="5"></textarea>
+                    </label>
+                </div>
+                <button>Indsend</button>
+            </form>
+        </section>
+    </main>
 
 </body>
 
