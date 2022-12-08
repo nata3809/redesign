@@ -13,28 +13,27 @@
 
 /****Symboler***/
 
+.grid_1_8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+}
+
 .symboler {
-  display: block;
-  display: inline block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
 }
 
 .symboler img {
-  item-align: center;
+  height: 100px;
+  width: auto;
 }
-.tekstsymbol {
-  display: grid;
-  grid-template-columns: 0.1fr 0.1fr;
-  gap: 324px;
-}
-#sav {
-  width: 38%;
-}
-#stub {
-  width: 59%;
-}
+
+/* .tekstsymbol {
+  text-align: center;
+} */
 
 /***Træfældning**/
 
