@@ -108,11 +108,3 @@ footer p {
 a:link {
   text-decoration: none;
 }
-
-@media (min-width: 800px) {
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 188px;
-  }
-}
