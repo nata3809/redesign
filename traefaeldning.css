@@ -78,18 +78,6 @@ a.cta {
 /**** Streger med træ ****/
 
 #streg1 {
-  margin-top: -113px;
-  margin-bottom: -113px;
-}
-
-#streg2 {
-  margin-top: -113px;
-  margin-bottom: -113px;
-}
-
-#streg3 {
-  margin-top: -113px;
-  margin-bottom: -113px;
 }
 
 /***Risikotræer***/
@@ -97,7 +85,7 @@ a.cta {
 .grid_3_5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 #træ1 {
