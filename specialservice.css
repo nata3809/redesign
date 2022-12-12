@@ -220,6 +220,7 @@
 
   #grid_1_1 {
     opacity: 50%;
+    display: none;
   }
 
   .grid_1_2 {
@@ -228,5 +229,19 @@
 
   .grid_1_8 {
     display: none;
+  }
+
+  /****Specialservice***/
+
+  .grid_2_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .grid_4_6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
 }
