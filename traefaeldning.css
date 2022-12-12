@@ -29,6 +29,7 @@
 .symboler img {
   height: 100px;
   width: auto;
+  margin-bottom: 25px;
 }
 
 /* .tekstsymbol {
@@ -67,19 +68,29 @@ a.cta {
   margin-top: 16px;
 }
 
+.grid_2_3 {
+  display: grid;
+  gap: 10px;
+}
 .grid_2_4 {
   margin-top: 137px;
 }
 
-#streg {
-  margin-top: 60px;
-}
+/**** Streger med træ ****/
 
 #streg1 {
-  margin-top: -90px;
+  margin-top: -113px;
+  margin-bottom: -113px;
 }
+
 #streg2 {
-  margin-top: 126px;
+  margin-top: -113px;
+  margin-bottom: -113px;
+}
+
+#streg3 {
+  margin-top: -113px;
+  margin-bottom: -113px;
 }
 
 /***Risikotræer***/
