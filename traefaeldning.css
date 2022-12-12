@@ -78,18 +78,6 @@ a.cta {
 /**** Streger med træ ****/
 
 #streg1 {
-  margin-top: -113px;
-  margin-bottom: -113px;
-}
-
-#streg2 {
-  margin-top: -113px;
-  margin-bottom: -113px;
-}
-
-#streg3 {
-  margin-top: -113px;
-  margin-bottom: -113px;
 }
 
 /***Risikotræer***/
@@ -97,7 +85,7 @@ a.cta {
 .grid_3_5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 #træ1 {
@@ -116,12 +104,7 @@ a.cta {
 .grid_3_3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
   margin-top: 6px;
-}
-
-.grid_3_4 {
-  margin-top: 97px;
 }
 
 /***Topkapning**/
@@ -129,15 +112,31 @@ a.cta {
 .grid_4_4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  grid-template-rows: 1fr 1fr;
   margin-top: 8px;
 }
 
-.grid_4_7 {
-  margin-top: 320px;
+.grid_4_5 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
 }
+
 .grid_4_6 {
-  margin-top: 145px;
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.grid_4_7 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.grid_4_8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
