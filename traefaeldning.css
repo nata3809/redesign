@@ -65,12 +65,17 @@ a.cta {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
-.grid_2_4 {
-  margin-top: 137px;
+.grid_2_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  align-items: center;
 }
+
+/**** Streger med træ ****/
 
 #streg1 {
   margin-top: -113px;
