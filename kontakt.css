@@ -6,6 +6,7 @@ form {
   border-radius: 8px;
   gap: 30px;
 }
+
 .form-felt {
   display: grid;
   gap: 3px;
@@ -16,6 +17,8 @@ textarea,
 select,
 button {
   display: block;
+  color: rgb(37, 65, 33);
+  font-weight: bold;
 }
 
 .grid_1-1 {
@@ -27,13 +30,16 @@ button {
 }
 .grid_1-2 {
   padding-left: 90px;
+  padding-top: 80px;
 }
 .grid_1-3 {
   margin-top: 94px;
 }
-
+#streg1 {
+  margin-top: -90px;
+  margin-bottom: -134px;
+}
 /********* Footer **********/
-/**Footer**/
 footer {
   background-color: #4d604b;
   width: 100%;

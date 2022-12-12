@@ -1,3 +1,8 @@
+html {
+  --h1farve: rgb(2, 2, 2);
+  --tekstfarve: rgb(37, 65, 33);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -55,49 +60,49 @@ a:hover {
 h1 {
   font-family: "Krub", sans-serif;
   font-size: 4rem;
-  color: rgb(2, 2, 2);
+  color: var(--h1farve);
 }
 
 h2 {
   font-family: "Krub", sans-serif;
   font-size: 3rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
 }
 
 h3 {
   font-family: "Krub", sans-serif;
   font-size: 1.4rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
 }
 
 h4 {
   font-family: "Krub", sans-serif;
   font-size: 1.6rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
 }
 
 h5 {
   font-family: "Krub", sans-serif;
   font-size: 2.1rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
 }
 
 h6 {
   font-family: "Krub", sans-serif;
   font-size: 2rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
   margin-top: 0;
 }
 
 p {
   font-family: "Krub", sans-serif;
   font-size: 1rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
 }
 
 ul {
   font-family: "Krub", sans-serif;
   font-size: 1.1rem;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
   margin-left: 60px;
 }
