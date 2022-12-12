@@ -18,7 +18,7 @@ main {
   grid-template-rows: auto 1fr auto;
   /* margin-left: 99px;
   margin-right: 100px; */
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -47,20 +47,20 @@ a:link {
   color: black;
 }
 a:visited {
-  color: var(--tekstfarve);
-  font-size: 1.1rem;
+  color: rgb(30, 66, 36);
+  font-size: 1rem;
 }
 a:hover {
   color: var(--tekstfarve);
   font-weight: bolder;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /****TEKSTER***/
 h1 {
   font-family: "Krub", sans-serif;
   font-size: 4rem;
-  color: var(--h1farve);
+  color: rgb(37, 65, 33);
 }
 
 h2 {
@@ -106,3 +106,5 @@ ul {
   color: var(--tekstfarve);
   margin-left: 60px;
 }
+
+/**Burger menu**/
