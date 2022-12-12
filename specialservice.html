@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="specialservice.css">
     <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;500&display=swap" rel="stylesheet">
@@ -16,13 +17,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="banner">
+        <div class="logo">
+            <a href="index.html">Logo</a>
+        </div>
 
-        <!-- /***TIL LOGO***/
-    
-            <div class="logo">
-                <a href="index.html"><img src="img" alt="l" /></a>
-            </div> -->
+        <button class="toggle-btn">Menu</button>
 
         <nav>
             <ul id="horizontal-list">
@@ -66,66 +66,76 @@
             <img id="streg1" src="/img/symboler/et_trae.png" alt="streg">
         </div>
 
-        <div class="grid_2_2">
-            <div class="grid_2_3">
+        <section>
+            <div>
                 <h2>Specialservice</h2>
+            </div>
 
-                <h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa doloribus veritatis est
-                    voluptate ratione adipisci. Similique vitae cum quia architecto praesentium fuga, nesciunt excepturi
-                    sit sequi odit. Nesciunt, alias.
-                </h3>
-                <p>
-                    Den enkleste fældning er, hvis der er plads til at hele træet kan lægges ned. Det er normalt på
-                    større arealer eller
-                    f.eks. i skoven. I visse haver er der dog plads til denne metode.
-                    Vi skærer forhug og fældesnit. Herefter tvinges træet henover forhuggets retning med hammer og kile.
-                </p>
+            <div class="grid_2_2">
+                <div class="grid_2_3">
 
-                <div class="grid_knap">
-                    <a class="cta" href="kontakt.html">Kontakt os</a>
+                    <h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa doloribus veritatis est
+                        voluptate ratione adipisci. Similique vitae cum quia architecto praesentium fuga, nesciunt
+                        excepturi
+                        sit sequi odit. Nesciunt, alias.
+                    </h3>
+                    <p>
+                        Den enkleste fældning er, hvis der er plads til at hele træet kan lægges ned. Det er normalt på
+                        større arealer eller
+                        f.eks. i skoven. I visse haver er der dog plads til denne metode.
+                        Vi skærer forhug og fældesnit. Herefter tvinges træet henover forhuggets retning med hammer og
+                        kile.
+                    </p>
+
+                    <div class="grid_knap">
+                        <a class="cta" href="kontakt.html">Kontakt os</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="grid_2_4">
-                <img src="img/subfræs.jpg" alt="stub">
-            </div>
+                <div class="grid_2_4">
+                    <img src="img/subfræs.jpg" alt="stub">
+                </div>
 
-        </div>
+            </div>
+        </section>
 
         <div>
             <img id="streg" src="/img/symboler/et_trae.png" alt="streg">
         </div>
 
+        <section>
 
-        <div class="grid_3_33">
-            <h2>Rodfræsning</h2>
-        </div>
 
-        <div class="grid_3_3">
-            <div class="grid_3_5">
-                <img id="træ1" src="img/stub2.jpg" alt="stub">
+            <div>
+                <h2>Rodfræsning</h2>
             </div>
 
-            <div class="grid_3_4">
+            <div class="grid_3_3">
+                <div class="grid_3_5">
+                    <img id="træ1" src="img/stub2.jpg" alt="stub">
+                </div>
 
-                <div class="grid_3_44">
+                <div class="grid_3_4">
 
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa doloribus veritatis est
-                        voluptate ratione adipisci. Similique vitae cum quia architecto praesentium fuga, nesciunt
-                        excepturi
-                        sit sequi odit. Nesciunt, alias.</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa doloribus veritatis est
-                        voluptate ratione adipisci. Similique vitae cum quia architecto praesentium fuga, nesciunt
-                        excepturi
-                        sit sequi odit. Nesciunt, alias.
-                    </p>
+                    <div class="grid_3_44">
+
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa doloribus veritatis est
+                            voluptate ratione adipisci. Similique vitae cum quia architecto praesentium fuga, nesciunt
+                            excepturi
+                            sit sequi odit. Nesciunt, alias.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa doloribus veritatis est
+                            voluptate ratione adipisci. Similique vitae cum quia architecto praesentium fuga, nesciunt
+                            excepturi
+                            sit sequi odit. Nesciunt, alias.
+                        </p>
+                    </div>
+
                 </div>
 
             </div>
-
-        </div>
+        </section>
 
         <div>
             <img id="streg2" src="/img/symboler/et_trae.png" alt="streg">
@@ -213,7 +223,8 @@
 
 
     </footer>
+    <script src="script1.js"></script>
 </body>
-<script src="script.js"></script>
+
 
 </html>

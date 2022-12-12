@@ -42,16 +42,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    margin-top: -48px;
   }
 
   .grid_2_3 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-  .grid_2_4 {
-    margin-top: 137px;
   }
 
   /****KNAP****/
@@ -92,14 +88,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    margin-top: 4px;
   }
 
-  .grid_3_4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 200px;
-  }
   .grid_3_44 {
     display: grid;
     grid-template-columns: 1fr;
