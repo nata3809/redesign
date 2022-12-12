@@ -29,6 +29,7 @@
 .symboler img {
   height: 100px;
   width: auto;
+  margin-bottom: 25px;
 }
 
 /* .tekstsymbol {
@@ -71,15 +72,19 @@ a.cta {
   margin-top: 137px;
 }
 
-#streg {
-  margin-top: 60px;
+#streg1 {
+  margin-top: -113px;
+  margin-bottom: -113px;
 }
 
-#streg1 {
-  margin-top: -90px;
-}
 #streg2 {
-  margin-top: 126px;
+  margin-top: -113px;
+  margin-bottom: -113px;
+}
+
+#streg3 {
+  margin-top: -113px;
+  margin-bottom: -113px;
 }
 
 /***Risikotræer***/
