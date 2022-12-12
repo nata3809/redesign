@@ -13,7 +13,7 @@ main {
   grid-template-rows: auto 1fr auto;
   /* margin-left: 99px;
   margin-right: 100px; */
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -43,19 +43,19 @@ a:link {
 }
 a:visited {
   color: rgb(30, 66, 36);
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 a:hover {
   color: rgb(30, 66, 36);
   font-weight: bolder;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /****TEKSTER***/
 h1 {
   font-family: "Krub", sans-serif;
   font-size: 4rem;
-  color: rgb(2, 2, 2);
+  color: rgb(37, 65, 33);
 }
 
 h2 {
