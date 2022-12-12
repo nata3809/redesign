@@ -17,7 +17,7 @@ textarea,
 select,
 button {
   display: block;
-  color: rgb(37, 65, 33);
+  color: var(--tekstfarve);
   font-weight: bold;
 }
 
