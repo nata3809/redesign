@@ -13,28 +13,29 @@
 
 /****Symboler***/
 
-.symboler {
+.grid_1_3 {
   display: grid;
-  grid-template-columns: 0.2fr 0.2fr 0.2fr;
-  gap: 450px;
-  margin-top: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
 }
 
-.tekstsymbol {
+.symboler {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.symboler img {
+  height: 100px;
+  width: auto;
+}
+
+/* .tekstsymbol {
   display: grid;
   grid-template-columns: 0.1fr 0.1fr 0.1fr;
   gap: 324px;
-}
-
-#træ {
-  width: 149%;
-}
-#sav {
-  width: 184%;
-}
-#stub {
-  width: 220%;
-}
+} */
 
 /****KNAP****/
 .cta {
@@ -43,16 +44,15 @@
   border-color: #4d604b;
   border-style: solid;
   border-radius: 1rem;
-  font-size: 1.3rem;
+
   margin-top: 50px;
 }
 .cta:hover {
-  color: rgb(3, 3, 3);
-  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 63, 51);
 }
 a.cta {
   font-family: "Krub", sans-serif;
-  font-size: 1.6rem;
 }
 
 .grid_knap {
@@ -76,7 +76,7 @@ a.cta {
 }
 
 #streg1 {
-  margin-top: -11px;
+  margin-top: -90px;
 }
 #streg2 {
   margin-top: 126px;
