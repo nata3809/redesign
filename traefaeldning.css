@@ -65,6 +65,7 @@ a.cta {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
+  margin-top: 20px;
 }
 
 .grid_2_3 {
