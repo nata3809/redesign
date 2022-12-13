@@ -108,3 +108,9 @@ ul {
 }
 
 /**Burger menu**/
+
+@media (max-width: 799px) {
+  main {
+    margin: 5px;
+  }
+}
